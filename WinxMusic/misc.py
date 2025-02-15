@@ -1,7 +1,7 @@
 import socket
 import time
 
-import heroku
+import pyrogram
 from pyrogram import filters
 
 import config

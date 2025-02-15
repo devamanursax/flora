@@ -25,11 +25,11 @@ jobs:
       - name: lint with black
         run: |
           black .
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: devamanursax/git-auto-commit-action@v4
         with:
           commit_message: 'chore: auto fixes'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: gabrielmaialva33
-          commit_user_email: gabrielmaialva33@gmail.com
-          commit_author: Maia <gabrielmaialva33@gmail.com>%
+          commit_user_name: devamanursax
+          commit_user_email: devaamanursa@gmail.com
+          commit_author: flora <devaamanursa@gmail.com>%

@@ -11,7 +11,7 @@ from .logging import LOGGER
 dirr()
 
 # # Check Git Updates
-git()
+git fetch -v --origin main
 
 # Initialize Memory DB
 dbb()

@@ -27,7 +27,7 @@ app = WinxBot()
 # Assistant Client
 userbot = Userbot()
 
-from .platforms import PlaTForms
+from platforms import PlaTForms
 
 Platform = PlaTForms()
 

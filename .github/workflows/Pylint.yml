@@ -29,7 +29,7 @@ jobs:
         with:
           commit_message: 'chore: auto fixes'
           commit_options: '--no-verify'
-          repository: .
+          repository: flora
           commit_user_name: devamanursax
           commit_user_email: devaamanursa@gmail.com
           commit_author: flora <devaamanursa@gmail.com>%
